@@ -17,7 +17,7 @@ const Dashboard = () => {
         {
             id: 2,
             petName: 'Max',
-            owner: 'María López',
+            owner: 'Yulied Lopez',
             time: '1:00 PM',
             type: 'Consulta Veterinaria',
             icon: Stethoscope,
@@ -74,7 +74,7 @@ const Dashboard = () => {
     // Mock data for patients in clinic with species and status
     const patientsInClinic = [
         { id: 1, name: 'Luna', owner: 'Juan García', species: 'dog', status: 'Post-Operatorio' },
-        { id: 2, name: 'Max', owner: 'María López', species: 'cat', status: 'En Observación' },
+        { id: 2, name: 'Max', owner: 'Yulied Lopez', species: 'cat', status: 'En Observación' },
         { id: 3, name: 'Oliver', owner: 'Carlos Ruiz', species: 'dog', status: 'Recuperación' },
         { id: 4, name: 'Nieve', owner: 'Ana Torres', species: 'cat', status: 'Esperando Alta' },
         { id: 5, name: 'Cleo', owner: 'Luis Mora', species: 'cat', status: 'En Tratamiento' },

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import RegisterClientForm from './components/forms/RegisterClientForm';
 import Dashboard from './components/Dashboard';
 import Sidebar from './components/Sidebar';
+import MedicalRecords from './components/MedicalRecords';
 import { PawPrint, Search } from 'lucide-react';
 
 function App() {
@@ -50,6 +51,8 @@ function App() {
           <div className="max-w-7xl mx-auto">
             {currentView === 'dashboard' ? (
               <Dashboard />
+            ) : currentView === 'medical-records' ? (
+              <MedicalRecords />
             ) : (
               <>
                 <div className="mb-8 text-center">

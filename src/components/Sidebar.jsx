@@ -1,4 +1,4 @@
-import { LayoutDashboard, UserPlus, Menu, X, LogOut, Settings } from 'lucide-react';
+import { LayoutDashboard, UserPlus, Menu, X, LogOut, Settings, FileText } from 'lucide-react';
 import { useState } from 'react';
 
 const Sidebar = ({ currentView, setCurrentView }) => {
@@ -7,6 +7,7 @@ const Sidebar = ({ currentView, setCurrentView }) => {
     const menuItems = [
         { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
         { id: 'register', label: 'Nuevo Registro', icon: UserPlus },
+        { id: 'medical-records', label: 'Historias Clínicas', icon: FileText },
     ];
 
     return (

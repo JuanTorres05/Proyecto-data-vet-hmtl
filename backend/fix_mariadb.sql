@@ -1,0 +1,3 @@
+-- Para MariaDB
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'ADMIN2020';
+FLUSH PRIVILEGES;
